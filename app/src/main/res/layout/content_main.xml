@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivity"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageTool"
+        android:src="@drawable/tool"
+        android:layout_marginBottom="345dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Tool pushes limits in many ways, thus eschewing clichéd tendencies of rock and of popular music in general. Their musical compositions utilize the verse-chorus-bridge structure common to pop music, yet they push the limits of that structure, either by dissolving the distinction between verse and chorus parts, Tool’s music opens up a less comprehensible and more visceral meaning immanent to one’s complex and chaotic engagement with the changes of the world, Tool’s music opens possibilities for becoming different, intensifying one’s existence so as to facilitate healing for the microcosm and macrocosm of self and world, The beats played by the instruments (especially drums) frequently make use of polyrhythms, wherein multiple meters occur simultaneously in a multi-stable gestalt."
+        android:id="@+id/textView"
+        android:layout_marginBottom="143dp"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>
