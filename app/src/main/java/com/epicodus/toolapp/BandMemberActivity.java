@@ -11,13 +11,24 @@ import android.widget.Button;
 
 public class BandMemberActivity extends AppCompatActivity {
 
+    private Button mNextMemberButton;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_band_member);
 
-
+        mNextMemberButton = (Button) findViewById(R.id.nextMemberButton);
+        mNextMemberButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(BandMemberActivity.this, NextMemberActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
+
+
 
 }
